@@ -1,0 +1,29 @@
+html, body, * {
+    margin: 0px;
+    background-color: #0d031b;
+    color: #e9e8ff;
+    font-family: georgia;
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: 'Rubik';
+    margin: 16px;
+}
+
+.title>:nth-child(2n) {
+    color: #9987ff;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-around;
+}
+
+.menu *{
+    color: #d8d5ff;
+    height: 32px;
+    width: 32px;
+}
