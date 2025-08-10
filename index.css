@@ -14,7 +14,7 @@ html, body, * {
 }
 
 .title>:nth-child(2n) {
-    color: #9987ff;
+    color: #9988ff;
 }
 
 .menu{
@@ -26,4 +26,33 @@ html, body, * {
     color: #d8d5ff;
     height: 32px;
     width: 32px;
+}
+
+.post {
+    padding: 32px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.text {
+    white-space: pre-wrap;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.body {
+    display: flex;
+    justify-content:space-between;
+}
+
+.sidemenu {
+    width: 100%;
+    text-align: center;
+    background-color: #443377;
+}
+
+@media (max-width: 900px) {
+    .body {
+        flex-direction: column;
+    }
 }
